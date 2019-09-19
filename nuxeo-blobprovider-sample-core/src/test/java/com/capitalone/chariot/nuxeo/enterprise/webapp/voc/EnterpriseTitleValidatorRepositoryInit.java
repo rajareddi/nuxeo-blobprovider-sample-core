@@ -4,13 +4,14 @@ import org.nuxeo.ecm.core.api.CoreSession;
 import org.nuxeo.ecm.core.api.DocumentModel;
 import org.nuxeo.ecm.core.test.DefaultRepositoryInit;
 
-public class EnterpriseVocabularyRepositoryInit extends DefaultRepositoryInit {
+public class EnterpriseTitleValidatorRepositoryInit extends DefaultRepositoryInit {
     private final long size;
 
+    
     /**
      * Qualified default class constructor
      */
-    public EnterpriseVocabularyRepositoryInit() {
+    public EnterpriseTitleValidatorRepositoryInit() {
         this(10);
     }
 
@@ -18,7 +19,7 @@ public class EnterpriseVocabularyRepositoryInit extends DefaultRepositoryInit {
      * Full qualified default class default class constructor
      * @param size the target expected size
      */
-    public EnterpriseVocabularyRepositoryInit(long size) {
+    public EnterpriseTitleValidatorRepositoryInit(long size) {
         this.size = size;
     }
 

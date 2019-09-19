@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<component name="org.nuxeo.sample.blobprovider.test" version="1.0">
-	<extension target="org.nuxeo.ecm.core.blob.BlobManager"
-		point="configuration">
-		<blobprovider name="sampleProvider">
-			<class>org.nuxeo.sample.blobprovider.SampleBlobProvider</class>
-		</blobprovider>
-	</extension>
-</component>
