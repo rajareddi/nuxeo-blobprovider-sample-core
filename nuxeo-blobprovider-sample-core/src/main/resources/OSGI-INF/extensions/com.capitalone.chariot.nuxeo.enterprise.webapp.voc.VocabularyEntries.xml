@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<component
+	name="com.capitalone.chariot.nuxeo.enterprise.webapp.voc.VocabularyEntries"
+	version="1.0">
+
+	<implementation
+		class="com.capitalone.chariot.nuxeo.enterprise.webapp.voc.VocabularyEntries" />
+
+</component>

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "article",
+    "label": "Article",
+    "obsolete": 0,
+    "ordering": 2
+  },
+  {
+    "id": "memo",
+    "label": "Memo",
+    "obsolete": 1,
+    "ordering": 1
+  },
+  {
+    "id": "invoice",
+    "label": "Invoice",
+    "obsolete": 0,
+    "ordering": 3
+  }
+]
